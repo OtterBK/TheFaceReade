@@ -1,0 +1,12 @@
+name: TheFaceReade
+version: ${project.version}
+main: thefacereade.thefacereade.TheFaceReade
+api-version: 1.16
+commands:
+  신분:
+    description: status command
+    aliases:
+      - status
+    permission: op.신분
+    permission-message: 권한이 부족합니다.
+    usage: /<command> <신분> <닉네임>
